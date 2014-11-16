@@ -33,7 +33,7 @@ head(activity)
 ```{r}
 summary(activity)
 ```
-https://github.com/manidegr8/RepData_PeerAssessment1/blob/master/figures/Avg%20Daily%20Activity%20Pattern.png
+![] (https://github.com/manidegr8/RepData_PeerAssessment1/blob/master/figures/Avg%20Daily%20Activity%20Pattern.png)
 
 ### Mean Total Steps per Day
 
