@@ -41,7 +41,7 @@ For this part of the assignment, you can ignore the missing values in the datase
 
     Make a histogram of the total number of steps taken each day
      
-    ```{r}
+```{r}
 library(ggplot2)
 q <- qplot(date, weight = activity$steps, data = activity, geom = "histogram")
 print(q)
@@ -104,7 +104,7 @@ fixed[is.na(fixed[, 1]), 1] <- average_steps[is.na(fixed[, 1]), 2]
     
     Create a histogram of the new dataset, which has the NAs replaced with the 5-minute means.
     
-    ```{r}
+```{r}
 qplot(date, weight = fixed$steps, data = fixed, geom = "histogram")
 ```
 
